@@ -1,0 +1,13 @@
+.vscode
+*.code-workspace
+.next
+.env
+tmp
+.coveralls.yml
+*.log
+coverage
+build
+dist
+node_modules
+.DS_Store
+.tmp
