@@ -9,14 +9,6 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "now": {
-    "alias": [
-      "achkouyan.now.sh",
-      "www.achkouyan.com",
-      "franck.achkouyan.com",
-      "achkouyan.com"
-    ]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
