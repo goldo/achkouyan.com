@@ -93,6 +93,10 @@ export default class MyDocument extends Document {
             name="keywords"
             content="developer,personal,about,blog,javascript,fullstack,nextjs"
           />
+          <meta
+            name="google-site-verification"
+            content="FUbld5Ru23u5T6BOpqQn_wG6l8J_dUunaohq5ZN9Qw4"
+          />
           {this.props.styleTags}
         </Head>
         <body>
