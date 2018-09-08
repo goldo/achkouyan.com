@@ -2,6 +2,9 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet, injectGlobal } from 'styled-components'
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
 
+const COLOR_DARK = '#323232'
+const COLOR_LIGHT = '#FCFCFC'
+
 injectGlobal`
   *,*:after,*:before {
     box-sizing:inherit;
@@ -15,8 +18,6 @@ injectGlobal`
 
   body {
     display: flex;
-    color: #323232;
-    background-color: #FCFCFC;
     font-family: 'Fira Mono', monospace;
     font-size: 1.6rem;
     font-weight: 400;
@@ -52,7 +53,7 @@ injectGlobal`
 
   a {
     font-weight: 700;
-    color: #000;
+    color: inherit;
     text-decoration: none;
     background-color: transparent;
     cursor: pointer;
@@ -70,6 +71,8 @@ export default class MyDocument extends Document {
   }
 
   render() {
+    const rand = Math.floor(Math.random() * 2)
+
     return (
       <html>
         <Head>
@@ -99,7 +102,12 @@ export default class MyDocument extends Document {
           />
           {this.props.styleTags}
         </Head>
-        <body>
+        <body
+          style={{
+            color: rand ? COLOR_LIGHT : COLOR_DARK,
+            backgroundColor: rand ? COLOR_DARK : COLOR_LIGHT,
+          }}
+        >
           <Main />
           <NextScript />
         </body>
