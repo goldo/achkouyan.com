@@ -16,7 +16,7 @@ injectGlobal`
   body {
     display: flex;
     color: #323232;
-    background-color: #FDFDFD;
+    background-color: #FCFCFC;
     font-family: 'Fira Mono', monospace;
     font-size: 1.6rem;
     font-weight: 400;
