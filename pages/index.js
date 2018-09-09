@@ -65,6 +65,8 @@ const SocialLink = styled.a`
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.6rem;
+  font-weight: 400;
+
   @media (max-width: ${SIZE_4}px) {
     font-size: 1.5rem;
   }

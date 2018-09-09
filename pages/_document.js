@@ -60,6 +60,10 @@ injectGlobal`
     background-color: transparent;
     cursor: pointer;
   }
+
+  p {
+    margin: 2em 0
+  }
 `
 
 export default class MyDocument extends Document {
