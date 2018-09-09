@@ -1,4 +1,4 @@
-import { Main, Content, Container } from 'components/Page'
+import { Main, Content, ContainerWithAnimation } from 'components/Page'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
@@ -6,7 +6,7 @@ const About = () => (
   <Main>
     <Header />
     <Content>
-      <Container>
+      <ContainerWithAnimation>
         <p>
           I'm a remote 🌍 freelance JS developer 👨‍💻 specialized in Node, React &
           GraphQL
@@ -48,7 +48,7 @@ const About = () => (
             @a_franck ✌
           </a>
         </p>
-      </Container>
+      </ContainerWithAnimation>
     </Content>
     <Footer />
   </Main>
