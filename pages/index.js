@@ -2,7 +2,12 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
-import { Main, Content, Container } from 'components/Page'
+import {
+  Main,
+  Content,
+  Container,
+  ContainerWithAnimation,
+} from 'components/Page'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
@@ -88,7 +93,7 @@ const Index = () => (
   <Main>
     <Header />
     <Content>
-      <Container centered>
+      <ContainerWithAnimation centered>
         <About>
           <H1>Franck Achkouyan 👨‍💻</H1>
           <H2>Remote 🌍 Fullstack JS Developer </H2>
@@ -102,8 +107,9 @@ const Index = () => (
             />
           </Socials>
         </About>
-      </Container>
+      </ContainerWithAnimation>
     </Content>
+
     <Footer />
   </Main>
 )
