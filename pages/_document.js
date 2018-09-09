@@ -2,6 +2,8 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet, injectGlobal } from 'styled-components'
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
 
+const THEMES = { DARK: 'dark', LIGHT: 'light' }
+
 const COLOR_DARK = '#323232'
 const COLOR_LIGHT = '#FCFCFC'
 
@@ -71,7 +73,7 @@ export default class MyDocument extends Document {
   }
 
   render() {
-    const rand = Math.floor(Math.random() * 2)
+    const theme = Math.floor(Math.random() * 2) ? THEMES.DARK : THEMES.LIGHT
 
     return (
       <html>
@@ -104,8 +106,8 @@ export default class MyDocument extends Document {
         </Head>
         <body
           style={{
-            color: rand ? COLOR_LIGHT : COLOR_DARK,
-            backgroundColor: rand ? COLOR_DARK : COLOR_LIGHT,
+            backgroundColor: theme === THEMES.DARK ? COLOR_DARK : COLOR_LIGHT,
+            color: theme === THEMES.DARK ? COLOR_LIGHT : COLOR_DARK,
           }}
         >
           <Main />
