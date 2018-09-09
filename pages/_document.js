@@ -82,7 +82,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Franck Achkouyan</title>
+          <title>Franck Achkouyan | Fullstack JS Developer</title>
           <link rel="icon" type="image/png" href="/static/favico.png" />
           <link
             rel="stylesheet"
@@ -96,11 +96,11 @@ export default class MyDocument extends Document {
           <meta name="author" content="Franck Achkouyan" />
           <meta
             name="description"
-            content="Franck Achkouyan's Personal Card - Achkouyan Consulting"
+            content="I'm a remote 🌍 freelance javascript developer 👨‍💻 specialized in Node, React & GraphQL"
           />
           <meta
             name="keywords"
-            content="developer,personal,about,blog,javascript,fullstack,nextjs"
+            content="developer,javascript,react,reactjs,node,nodejs,remote,fullstack,senior,personal,about,blog,front,frontend,back,backend,now.sh,nextjs,zeit,twitter,linkedin,engineer,paris"
           />
           <meta
             name="google-site-verification"

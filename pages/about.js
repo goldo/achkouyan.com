@@ -7,22 +7,25 @@ const About = () => (
     <Header />
     <Content>
       <ContainerWithAnimation>
+        <p>Hi, I'm Franck&nbsp;🖐️ </p>
         <p>
-          I'm a remote 🌍 freelance JS developer 👨‍💻 specialized in Node, React &
-          GraphQL
+          I'm a remote&nbsp;🌍 freelance javascript developer&nbsp;👨‍💻
+          specialized in Node, React & GraphQL. I'm 29, and I've been developing
+          since I was 14&nbsp;👶
         </p>
         <p>
-          Currently based in Paris 🇫🇷 working{' '}
+          I went to{' '}
           <a
-            href="https://twitter.com/LeMondeFR"
+            href="https://twitter.com/efrei_paris"
             target="_blank"
             rel="noopener"
           >
-            @LeMondeFR 📰
+            @efrei_paris 📚
           </a>{' '}
+          engineer school
         </p>
         <p>
-          Previously, I co-founded{' '}
+          Then, I co-founded{' '}
           <a
             href="https://twitter.com/bloomeefr"
             target="_blank"
@@ -38,14 +41,36 @@ const About = () => (
           >
             @GamificTV 📺
           </a>{' '}
-          (play on your mobile, audio-synchronized with your TV)
+          (play on your mobile, audio-synchronized with your live TV show)
         </p>
-
-        <p>I love travelling ✈️ video gaming 🎮 and playing football ⚽️</p>
+        <p>
+          I've been doing native mobile development&nbsp;📱 (iOS, Android) for 4
+          years before becoming a javascript developer&nbsp;🌐 (front & back)
+        </p>
+        <p>
+          Currently based in Paris&nbsp;🇫🇷, I'm working at{' '}
+          <a
+            href="https://twitter.com/LeMondeFR"
+            target="_blank"
+            rel="noopener"
+          >
+            @LeMondeFR&nbsp;📰
+          </a>{' '}
+          since 2015 on the Content Management System (Node, React, Angular) for
+          journalists&nbsp;✍️
+        </p>
+        <p>
+          In 2017 I became a vegetarian&nbsp;🥕 because I'm convinced we can
+          stay fit&nbsp;💪 without hurting animals&nbsp;🐮
+        </p>
+        <p>
+          I also love travelling&nbsp;✈️ video gaming&nbsp;🎮 and playing
+          football&nbsp;⚽️
+        </p>
         <p>
           Feel free to ping me{' '}
           <a href="https://twitter.com/a_franck" target="_blank" rel="noopener">
-            @a_franck ✌
+            @a_franck&nbsp;✌
           </a>
         </p>
       </ContainerWithAnimation>
