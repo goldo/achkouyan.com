@@ -62,7 +62,6 @@ const Social = styled.li`
 `
 
 const SocialLink = styled.a`
-  text-transform: uppercase;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.6rem;

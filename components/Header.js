@@ -12,7 +12,6 @@ const Navigation = styled.nav`
 const NavigationTitle = styled.a`
   display: inline;
   font-size: 1.8rem;
-  text-transform: uppercase;
   line-height: 6rem;
   letter-spacing: 0.1rem;
 
@@ -52,7 +51,6 @@ const NavigationLink = styled.a`
   margin-right: 1rem;
   display: inline;
   font-size: 1.6rem;
-  text-transform: uppercase;
   line-height: 6rem;
   letter-spacing: 0.1rem;
   @media (max-width: ${SIZE_2}px) {
@@ -68,12 +66,12 @@ const Header = () => (
   <Navigation>
     <Container>
       <Link prefetch href="/">
-        <NavigationTitle>Franck Achkouyan</NavigationTitle>
+        <NavigationTitle>/home</NavigationTitle>
       </Link>
       <NavigationList>
         <NavigationItem>
           <Link prefetch href="/about">
-            <NavigationLink>About</NavigationLink>
+            <NavigationLink>/about</NavigationLink>
           </Link>
         </NavigationItem>
       </NavigationList>
