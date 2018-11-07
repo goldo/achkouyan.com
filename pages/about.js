@@ -9,9 +9,9 @@ const About = () => (
       <ContainerWithAnimation>
         <p>Hi, I'm Franck&nbsp;🖐️ </p>
         <p>
-          I'm a remote&nbsp;🌍 freelance javascript developer&nbsp;👨‍💻
-          specialized in Node, React & GraphQL. I'm 29, and I've been developing
-          since I was 14&nbsp;👶
+          I'm a remote&nbsp;🌍 freelance javascript developer&nbsp;👨‍💻 based in
+          Paris&nbsp;🇫🇷 and specialized in Node, React & GraphQL. I'm 29, and
+          I've been developing since I was 14&nbsp;👶
         </p>
         <p>
           I went to{' '}
@@ -44,11 +44,11 @@ const About = () => (
           (play on your mobile, audio-synchronized with your live TV show)
         </p>
         <p>
-          I've been doing native mobile development&nbsp;📱 (iOS, Android) for 4
-          years before becoming a javascript developer&nbsp;🌐 (front & back)
+          I've been doing native mobile development&nbsp;📱 (iOS & Android) for
+          4 years before becoming a javascript developer&nbsp;🌐 (front & back)
         </p>
         <p>
-          Currently based in Paris&nbsp;🇫🇷, I'm working at{' '}
+          I've worked for 3 years at{' '}
           <a
             href="https://twitter.com/LeMondeFR"
             target="_blank"
@@ -56,8 +56,8 @@ const About = () => (
           >
             @LeMondeFR&nbsp;📰
           </a>{' '}
-          since 2015 on the Content Management System (Node, React, Angular) for
-          journalists&nbsp;✍️
+          on the Content Management System&nbsp;✍️ using Node, GraphQL, React
+          and Angular
         </p>
         <p>
           In 2017 I became a vegetarian&nbsp;🥕 because I'm convinced we can
