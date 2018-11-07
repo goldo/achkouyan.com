@@ -80,7 +80,7 @@ export default class MyDocument extends Document {
     const theme = Math.floor(Math.random() * 2) ? THEMES.DARK : THEMES.LIGHT
 
     return (
-      <html>
+      <html lang="en">
         <Head>
           <title>Franck Achkouyan | Fullstack JS Developer</title>
           <link rel="icon" type="image/png" href="/static/favico.png" />
