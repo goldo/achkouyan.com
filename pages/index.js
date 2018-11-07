@@ -1,13 +1,7 @@
-import Link from 'next/link'
 import styled from 'styled-components'
 
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
-import {
-  Main,
-  Content,
-  Container,
-  ContainerWithAnimation,
-} from 'components/Page'
+import { Main, Content, ContainerWithAnimation } from 'components/Page'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
