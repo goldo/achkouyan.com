@@ -3,6 +3,10 @@ import Head from 'next/head'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
+import { Main, Content } from 'components/Page'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
+
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
 
 const GlobalStyle = createGlobalStyle`
@@ -83,7 +87,13 @@ export default class MyApp extends App {
         <Head>
           <title>Franck Achkouyan | Fullstack JS Developer</title>
         </Head>
-        <Component {...pageProps} />
+        <Main>
+          <Header />
+          <Content>
+            <Component {...pageProps} />
+          </Content>
+          <Footer />
+        </Main>
       </Container>
     )
   }

@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
-import { Main, Content, ContainerWithAnimation } from 'components/Page'
-import Header from 'components/Header'
-import Footer from 'components/Footer'
+import { ContainerWithAnimation } from 'components/Page'
 
 const About = styled.div`
   text-align: center;
@@ -85,28 +83,21 @@ const SocialElement = ({ url, name }) => (
 )
 
 const Index = () => (
-  <Main>
-    <Header />
-    <Content>
-      <ContainerWithAnimation centered>
-        <About>
-          <H1>Franck Achkouyan 👨‍💻</H1>
-          <H2>Remote 🌍 Fullstack JS Developer </H2>
-          <Socials>
-            <SocialElement name="github" url="https://github.com/goldo/" />
-            <SocialElement name="twitter" url="https://twitter.com/a_franck/" />
-            <SocialElement name="medium" url="https://medium.com/@a_franck/" />
-            <SocialElement
-              name="linkedin"
-              url="https://www.linkedin.com/in/franckachkouyan/"
-            />
-          </Socials>
-        </About>
-      </ContainerWithAnimation>
-    </Content>
-
-    <Footer />
-  </Main>
+  <ContainerWithAnimation centered>
+    <About>
+      <H1>Franck Achkouyan 👨‍💻</H1>
+      <H2>Remote 🌍 Fullstack JS Developer </H2>
+      <Socials>
+        <SocialElement name="github" url="https://github.com/goldo/" />
+        <SocialElement name="twitter" url="https://twitter.com/a_franck/" />
+        <SocialElement name="medium" url="https://medium.com/@a_franck/" />
+        <SocialElement
+          name="linkedin"
+          url="https://www.linkedin.com/in/franckachkouyan/"
+        />
+      </Socials>
+    </About>
+  </ContainerWithAnimation>
 )
 
 export default Index

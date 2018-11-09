@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Container } from 'components/Page'
-import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
+import { SIZE_4, SIZE_3, SIZE_2 } from 'config'
 
 const FooterWrapper = styled.div`
   font-size: 1.6rem;
