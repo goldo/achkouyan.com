@@ -1,9 +1,17 @@
 {
-  "type": "npm",
+  "version": 2,
   "alias": [
     "achkouyan.now.sh",
     "www.achkouyan.com",
     "franck.achkouyan.com",
     "achkouyan.com"
+  ],
+  "builds": [
+    { "src": "/static/*", "use": "@now/static" },
+    { "src": "package.json", "use": "@now/next" }
+  ],
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
