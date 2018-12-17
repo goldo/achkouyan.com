@@ -1,5 +1,7 @@
 {
-  "type": "npm",
+  "version": 2,
+  "name": "achkouyan.com",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "alias": [
     "achkouyan.now.sh",
     "www.achkouyan.com",
