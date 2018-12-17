@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "regions": ["bru"],
   "alias": [
     "achkouyan.now.sh",
     "www.achkouyan.com",
