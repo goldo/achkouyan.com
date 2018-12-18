@@ -1,4 +1,6 @@
-# Personal Website
+# Personal Website 
+
+Using nextjs v7 + SRR
 
 ## Install
 
