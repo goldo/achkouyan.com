@@ -1,8 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
-import { GA_TRACKING_ID } from '../libs/gtag'
-
 const THEMES = { DARK: 'dark', LIGHT: 'light' }
 
 const COLOR_DARK = '#323232'

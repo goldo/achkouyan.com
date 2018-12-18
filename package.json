@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ganalytics": "^3.1.1",
+    "@mdx-js/mdx": "0.16.6",
+    "@zeit/next-mdx": "1.2.0",
+    "ganalytics": "3.1.1",
     "next": "7.0.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
