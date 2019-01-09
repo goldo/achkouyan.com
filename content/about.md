@@ -10,8 +10,12 @@ I've been doing native mobile development 📱 (iOS & Android) for 4 years befor
 
 I've worked for 3 years at [@LeMondeFR 📰](https://twitter.com/LeMondeFR) on the Content Management System ✍️ using Node, GraphQL, React and Angular
 
-In 2017 I became a vegetarian 🥕 because I'm convinced we can stay fit 💪 without hurting animals 🐮
+I strongly believe in simple, clean and efficient technologies 🖥️ the famous "Do One Thing and Do It Well" ✅
 
-I also love travelling ✈️ video gaming 🎮 and playing football ⚽️
+I'm sensitive to current privacy 🔏 issues, and willing to do more
+
+In 2017 I became a vegetarian 🥕 because I'm convinced we can stay fit 💪 without hurting animals 🐮 and polluting less 🌱
+
+I also love video gaming 🎮 and playing football ⚽️
 
 Feel free to ping me [@a_franck ✌](https://twitter.com/a_franck)
