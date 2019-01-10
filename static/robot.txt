@@ -1,3 +1,0 @@
-User-Agent: * 
-Allow: /
-Sitemap: https://achkouyan.com/sitemap.xml
