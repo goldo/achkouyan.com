@@ -1,23 +1,23 @@
-import Document, { Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
+import Document, { Head, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
-const THEMES = { DARK: 'dark', LIGHT: 'light' }
+const THEMES = { DARK: 'dark', LIGHT: 'light' };
 
-const COLOR_DARK = '#323232'
-const COLOR_LIGHT = '#FCFCFC'
+const COLOR_DARK = '#323232';
+const COLOR_LIGHT = '#FCFCFC';
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
-    const sheet = new ServerStyleSheet()
+    const sheet = new ServerStyleSheet();
     const page = renderPage(App => props =>
       sheet.collectStyles(<App {...props} />),
-    )
-    const styleTags = sheet.getStyleElement()
-    return { ...page, styleTags }
+    );
+    const styleTags = sheet.getStyleElement();
+    return { ...page, styleTags };
   }
 
   render() {
-    const theme = Math.floor(Math.random() * 2) ? THEMES.DARK : THEMES.LIGHT
+    const theme = Math.floor(Math.random() * 2) ? THEMES.DARK : THEMES.LIGHT;
 
     return (
       <html lang="en">
@@ -52,8 +52,15 @@ export default class MyDocument extends Document {
         >
           <Main />
           <NextScript />
+          <script async src="https://ping.achkouyan.com/hi.js" />
+          <noscript>
+            <div style={{ position: 'absolute', top: '33%', left: '10px' }}>
+              I'm sorry I haven't taken care of the render without javascript :(
+            </div>
+            <img src="https://ping.achkouyan.com/ping.gif" alt="" />
+          </noscript>
         </body>
       </html>
-    )
+    );
   }
 }
