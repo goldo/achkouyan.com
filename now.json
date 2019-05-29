@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "regions": ["sfo", "cdg"],
+  "regions": ["all"],
   "alias": [
     "achkouyan.now.sh",
     "www.achkouyan.com",
