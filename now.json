@@ -5,7 +5,8 @@
     "achkouyan.now.sh",
     "www.achkouyan.com",
     "franck.achkouyan.com",
-    "achkouyan.com"
+    "achkouyan.com",
+    "franck.i-s.dev"
   ],
   "builds": [{ "src": "package.json", "use": "@now/next@canary" }],
   "routes": [
