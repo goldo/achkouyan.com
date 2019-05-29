@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "8.0.4",
-    "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
   "devDependencies": {
     "@mdx-js/mdx": "0.16.6",
