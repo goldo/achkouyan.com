@@ -12,13 +12,13 @@
   "routes": [
     {
       "src": "^/(favicon.ico|robots.txt|sitemap.xml)$",
-      "headers": { "cache-control": "s-maxage=86400" },
+      "headers": { "cache-control": "s-maxage=31536000, max-age=0" },
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/$1",
-      "headers": { "cache-control": "s-maxage=86400" }
+      "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     }
   ]
 }
