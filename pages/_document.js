@@ -1,23 +1,23 @@
-import Document, { Head, Main, NextScript } from 'next/document';
-import { ServerStyleSheet } from 'styled-components';
+import Document, { Head, Main, NextScript } from 'next/document'
+import { ServerStyleSheet } from 'styled-components'
 
-const THEMES = { DARK: 'dark', LIGHT: 'light' };
+const THEMES = { DARK: 'dark', LIGHT: 'light' }
 
-const COLOR_DARK = '#323232';
-const COLOR_LIGHT = '#FCFCFC';
+const COLOR_DARK = '#323232'
+const COLOR_LIGHT = '#FCFCFC'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
-    const sheet = new ServerStyleSheet();
+    const sheet = new ServerStyleSheet()
     const page = renderPage(App => props =>
       sheet.collectStyles(<App {...props} />),
-    );
-    const styleTags = sheet.getStyleElement();
-    return { ...page, styleTags };
+    )
+    const styleTags = sheet.getStyleElement()
+    return { ...page, styleTags }
   }
 
   render() {
-    const theme = Math.floor(Math.random() * 2) ? THEMES.DARK : THEMES.LIGHT;
+    const theme = THEMES.DARK
 
     return (
       <html lang="en">
@@ -61,6 +61,6 @@ export default class MyDocument extends Document {
           </noscript>
         </body>
       </html>
-    );
+    )
   }
 }
