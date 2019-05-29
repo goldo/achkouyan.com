@@ -66,7 +66,9 @@ export const Main = styled.div`
 `
 
 export const Content = styled.div`
+  display: flex;
   flex: 1;
+  align-items: center;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
 `
