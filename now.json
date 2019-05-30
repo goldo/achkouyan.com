@@ -8,7 +8,7 @@
     "achkouyan.com",
     "franck.i-s.dev"
   ],
-  "builds": [{ "src": "package.json", "use": "@now/next@canary" }],
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "routes": [
     {
       "src": "^/(favicon.ico|robots.txt|sitemap.xml)$",
