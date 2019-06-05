@@ -23,7 +23,6 @@
     "@mdx-js/mdx": "0.16.6",
     "@zeit/next-mdx": "1.2.0",
     "babel-plugin-module-resolver": "3.1.1",
-    "babel-plugin-styled-components": "1.5.1",
-    "ganalytics": "3.1.1"
+    "babel-plugin-styled-components": "1.5.1"
   }
 }

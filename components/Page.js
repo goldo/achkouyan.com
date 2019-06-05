@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
 import posed from 'react-pose'
-import Router from 'next/router'
-import * as gtag from '../libs/gtag'
+// import Router from 'next/router'
 
 const AnimatedBox = posed.section({
   enter: { opacity: 1, delay: 300, y: '-20px' },
@@ -26,7 +25,8 @@ export const Container = styled.section`
     `};
 `
 
-Router.events.on('routeChangeComplete', url => gtag.pageview(url))
+// TODO: analytics
+// Router.events.on('routeChangeComplete', url => analytics.pageview(url))
 
 export class ContainerWithAnimation extends Component {
   constructor(props) {
