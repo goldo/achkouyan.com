@@ -2,6 +2,7 @@
 *.code-workspace
 .next
 .env
+.env.build
 tmp
 .coveralls.yml
 *.log
