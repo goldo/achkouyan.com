@@ -52,12 +52,12 @@ export default class MyDocument extends Document {
         >
           <Main />
           <NextScript />
-          <script async src="https://ping.achkouyan.com/hi.js" />
+          <script async src="https://ping.traffi.cz/hi.js" />
           <noscript>
             <div style={{ position: 'absolute', top: '33%', left: '10px' }}>
               I'm sorry I haven't taken care of the render without javascript :(
             </div>
-            <img src="https://ping.achkouyan.com/ping.gif" alt="" />
+            <img src="https://ping.traffi.cz/ping.gif" alt="" />
           </noscript>
         </body>
       </html>
