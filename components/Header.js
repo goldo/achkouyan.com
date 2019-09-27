@@ -65,12 +65,12 @@ const NavigationLink = styled.a`
 const Header = () => (
   <Navigation>
     <Container>
-      <Link prefetch href="/">
+      <Link href="/">
         <NavigationTitle>/home</NavigationTitle>
       </Link>
       <NavigationList>
         <NavigationItem>
-          <Link prefetch href="/about">
+          <Link href="/about">
             <NavigationLink>/about</NavigationLink>
           </Link>
         </NavigationItem>
