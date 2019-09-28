@@ -15,9 +15,19 @@ module.exports = (phase, { defaultConfig }) => {
     return nextJsConfig
   }
 
-  const withMDX = require('@zeit/next-mdx')({
-    extension: /.mdx?$/,
-  })
+  // const withMDX = require('@zeit/next-mdx')({
+  //   extension: /.mdx?$/,
+  // })
 
-  return withMDX(nextJsConfig)
+  // return withMDX(nextJsConfig)
+
+  return {
+    webpack: cfg => {
+      cfg.module.rules.push({
+        test: /\.md$/,
+        use: 'frontmatter-markdown-loader',
+      })
+      return cfg
+    },
+  }
 }

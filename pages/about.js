@@ -1,10 +1,10 @@
 import { ContainerWithAnimation } from 'components/Page'
 
-import Content from '../content/about.md'
+import content from '../content/about.md'
 
 const About = () => (
   <ContainerWithAnimation>
-    <Content />
+    <div dangerouslySetInnerHTML={{ __html: content.html }} />
   </ContainerWithAnimation>
 )
 

@@ -66,6 +66,10 @@ const GlobalStyle = createGlobalStyle`
   p {
     margin: 2em 0
   }
+
+  img {
+    width: 100%
+  } 
 `
 
 export default class MyApp extends App {
