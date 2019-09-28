@@ -1,6 +1,12 @@
+---
+title: ok
+date: 2019-10-01T02:06:05.173Z
+thumbnail: /static/images/screenshot-2019-09-25-at-15.41.03.png
+rating: 8
+---
 Hi, I'm Franck 🖐️
 
-I'm a remote 🌍 freelance javascript developer 👨‍💻 based in Paris 🇫🇷 and specialized in Node, React & GraphQL. I'm 29, and I've been developing since I was 14 👶
+I'm a remote 🌍 freelance javascript developer 👨‍💻 based in Paris 🇫🇷 and specialized in Node, React & GraphQL. I'm 30, and I've been developing since I was 14 👶
 
 I went to [@efrei_paris 📚](https://twitter.com/efrei_paris) engineer school
 
