@@ -9,12 +9,11 @@
     "franck.i-s.dev"
   ],
   "functions": {
-    "*.js": {
+    "pages/**/*.js": {
       "memory": 128,
       "maxDuration": 10
     }
   },
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "routes": [
     {
       "src": "^/(favicon.ico|robots.txt|sitemap.xml)$",
