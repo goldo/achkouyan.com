@@ -8,6 +8,12 @@
     "achkouyan.com",
     "franck.i-s.dev"
   ],
+  "functions": {
+    "*.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "routes": [
     {
