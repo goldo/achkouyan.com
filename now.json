@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "regions": ["all"],
   "alias": [
     "achkouyan.now.sh",
     "www.achkouyan.com",
@@ -10,7 +9,7 @@
   ],
   "functions": {
     "pages/**/*.js": {
-      "memory": 128,
+      "memory": 1024,
       "maxDuration": 10
     }
   },
