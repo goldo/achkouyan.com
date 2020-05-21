@@ -4,7 +4,7 @@
     "achkouyan.now.sh",
     "www.achkouyan.com",
     "franck.achkouyan.com",
-    "achkouyan.com",
+    "achkouyan.com"
   ],
   "functions": {
     "pages/**/*.js": {
