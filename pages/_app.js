@@ -2,10 +2,12 @@ import Footer from "components/Footer"
 import Header from "components/Header"
 import { Content, Main } from "components/Page"
 import { SIZE_1, SIZE_2, SIZE_3, SIZE_4 } from "config"
-import App from "next/app"
+import dynamic from "next/dynamic"
 import Head from "next/head"
+import { useRouter } from "next/router"
 import React from "react"
 import { createGlobalStyle } from "styled-components"
+const TinaWrapper = dynamic(() => import("../components/tina-wrapper"))
 
 const GlobalStyle = createGlobalStyle`
   *,*:after,*:before {
@@ -70,48 +72,54 @@ const GlobalStyle = createGlobalStyle`
   } 
 `
 
-export default class MyApp extends App {
-  static async getInitialProps({ Component, ctx }) {
-    let pageProps = {}
+export default function App({ Component, pageProps }) {
+  const router = useRouter()
 
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx)
-    }
+  const isAdminRoute = router.pathname.startsWith("/admin")
+  return (
+    <>
+      <GlobalStyle />
+      <Head>
+        <title>Franck Achkouyan | Fullstack JS Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    return { pageProps }
-  }
-
-  render() {
-    const { Component, pageProps } = this.props
-    return (
-      <>
-        <GlobalStyle />
-        <Head>
-          <title>Franck Achkouyan | Fullstack JS Developer</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-          <meta name="author" content="Franck Achkouyan" />
-          <meta
-            name="description"
-            content="I'm a remote 🌍 freelance javascript developer 👨‍💻 specialized in Node, React & GraphQL"
-          />
-          <meta
-            name="keywords"
-            content="developer,javascript,react,reactjs,node,nodejs,remote,fullstack,senior,personal,about,blog,front,frontend,back,backend,now.sh,nextjs,zeit,twitter,linkedin,engineer,paris"
-          />
-          <meta
-            name="google-site-verification"
-            content="FUbld5Ru23u5T6BOpqQn_wG6l8J_dUunaohq5ZN9Qw4"
-          />
-        </Head>
-        <Main>
-          <Header />
-          <Content>
+        <meta name="author" content="Franck Achkouyan" />
+        <meta
+          name="description"
+          content="I'm a remote 🌍 freelance javascript developer 👨‍💻 specialized in Node, React & GraphQL"
+        />
+        <meta
+          name="keywords"
+          content="developer,javascript,react,reactjs,node,nodejs,remote,fullstack,senior,personal,about,blog,front,frontend,back,backend,now.sh,nextjs,zeit,twitter,linkedin,engineer,paris"
+        />
+        <meta
+          name="google-site-verification"
+          content="FUbld5Ru23u5T6BOpqQn_wG6l8J_dUunaohq5ZN9Qw4"
+        />
+      </Head>
+      <Main>
+        <Header />
+        <Content>
+          {isAdminRoute ? (
+            <TinaWrapper>
+              <Component {...pageProps} />
+            </TinaWrapper>
+          ) : (
             <Component {...pageProps} />
-          </Content>
-          <Footer />
-        </Main>
-      </>
-    )
+          )}
+        </Content>
+        <Footer />
+      </Main>
+    </>
+  )
+}
+
+App.getInitialProps = async ({ Component, ctx }) => {
+  let pageProps = {}
+
+  if (Component.getInitialProps) {
+    pageProps = await Component.getInitialProps(ctx)
   }
+
+  return { pageProps }
 }
