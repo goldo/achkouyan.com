@@ -1,13 +1,11 @@
-import App from 'next/app'
-import Head from 'next/head'
-import React from 'react'
-import { createGlobalStyle } from 'styled-components'
-
-import { Main, Content } from 'components/Page'
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-
-import { SIZE_4, SIZE_3, SIZE_2, SIZE_1 } from 'config'
+import Footer from "components/Footer"
+import Header from "components/Header"
+import { Content, Main } from "components/Page"
+import { SIZE_1, SIZE_2, SIZE_3, SIZE_4 } from "config"
+import App from "next/app"
+import Head from "next/head"
+import React from "react"
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   *,*:after,*:before {
@@ -90,6 +88,21 @@ export default class MyApp extends App {
         <GlobalStyle />
         <Head>
           <title>Franck Achkouyan | Fullstack JS Developer</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+          <meta name="author" content="Franck Achkouyan" />
+          <meta
+            name="description"
+            content="I'm a remote 🌍 freelance javascript developer 👨‍💻 specialized in Node, React & GraphQL"
+          />
+          <meta
+            name="keywords"
+            content="developer,javascript,react,reactjs,node,nodejs,remote,fullstack,senior,personal,about,blog,front,frontend,back,backend,now.sh,nextjs,zeit,twitter,linkedin,engineer,paris"
+          />
+          <meta
+            name="google-site-verification"
+            content="FUbld5Ru23u5T6BOpqQn_wG6l8J_dUunaohq5ZN9Qw4"
+          />
         </Head>
         <Main>
           <Header />
