@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import { Container } from 'components/Page'
-import { SIZE_4, SIZE_3, SIZE_2 } from 'config'
+import { Container } from "components/Page"
+import { SIZE_2, SIZE_3, SIZE_4 } from "config"
+import styled from "styled-components"
 
 const FooterWrapper = styled.div`
   font-size: 1.6rem;
@@ -21,7 +21,7 @@ const FooterWrapper = styled.div`
 
 const Footer = () => (
   <FooterWrapper>
-    <Container>Powered by Next.js · Hosted by ▲ Zeit.co </Container>
+    <Container>Powered by Next.js · Hosted by ▲ Vercel </Container>
   </FooterWrapper>
 )
 
