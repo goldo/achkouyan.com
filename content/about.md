@@ -1,6 +1,6 @@
 Hi, I'm Franck 🖐️
 
-I'm a remote 🌍 freelance javascript developer 👨‍💻 based near Macon, France 🇫🇷 and specialized in Node, React & GraphQL. I'm 32, and I've been developing since I was 14 👶
+I'm a remote 🌍 freelance javascript developer 👨‍💻 based near Mâcon, France 🇫🇷 and specialized in Node, React & GraphQL. I'm 32, and I've been developing since I was 14 👶
 
 I went to [@efrei_paris 📚](https://twitter.com/efrei_paris) engineer school
 
