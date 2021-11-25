@@ -1,6 +1,6 @@
 Hi, I'm Franck 🖐️
 
-I'm a remote 🌍 freelance javascript developer 👨‍💻 based in Paris 🇫🇷 and specialized in Node, React & GraphQL. I'm 30, and I've been developing since I was 14 👶
+I'm a remote 🌍 freelance javascript developer 👨‍💻 based near Macon, France 🇫🇷 and specialized in Node, React & GraphQL. I'm 32, and I've been developing since I was 14 👶
 
 I went to [@efrei_paris 📚](https://twitter.com/efrei_paris) engineer school
 
@@ -14,7 +14,7 @@ I strongly believe in simple, clean and efficient technologies 🖥️ the famou
 
 I'm sensitive to current privacy 🔏 issues, and willing to do more
 
-In 2017 I became a vegetarian 🥕 because I'm convinced we can stay fit 💪 without hurting animals 🐮 and polluting less 🌱
+In 2017 I became a vegetarian 🥕 because I'm convinced we can stay fit 💪 without hurting animals 🐮 and polluting less 🏭. I took a step further and became Vegan 🌱 3 years later
 
 I also love video gaming 🎮 and playing football ⚽️
 
